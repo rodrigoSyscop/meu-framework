@@ -1,3 +1,3 @@
-<?php // framework/bye.php
+<!-- framework/src/pages/bye.php -->
 
-$response->setContent('Goodbye!');
+Goodbye!

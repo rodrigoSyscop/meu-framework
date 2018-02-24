@@ -1,4 +1,4 @@
-<?php // framework/hello.php
+<!-- framework/src/pages/hello.php -->
+<?php $name = $input = $request->get('name', 'World') ?>
 
-$input = $request->get('name', 'World');
-$response->setContent(sprintf('Hello %s', htmlspecialchars($input, ENT_QUOTES, 'UTF-8')));
+Hello <?php echo htmlspecialchars($name, ENT_QUOTES, 'UTF-8') ?>
